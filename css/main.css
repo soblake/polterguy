@@ -148,6 +148,8 @@ header .container nav a {
   color: var(--light);
   min-height: 100vh;
   background: url("../images/banner.jpg");
+  max-width: 100%;
+  position: relative;
   background-position: center right;
   background-size: cover;
   display: -ms-grid;
