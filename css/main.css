@@ -146,6 +146,7 @@ header .container nav a {
 
 .banner {
   color: var(--light);
+  min-width: 100vh;
   min-height: 100vh;
   background: url("../images/banner.jpg");
   width: 100%;
