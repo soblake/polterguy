@@ -148,14 +148,10 @@ header .container nav a {
   color: var(--light);
   min-height: 100vh;
   background: url("../images/banner.jpg");
-  max-width: 100%;
-  position: relative;
-  background-position: center right;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   background-size: cover;
-  display: -ms-grid;
-  display: grid;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 .banner .textBx {
