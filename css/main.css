@@ -27,7 +27,7 @@ a {
 .workbx {
   /* flex: 1 1 300px; 
   max-width: 400px; */
-   position: relative;
+  position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
@@ -428,3 +428,69 @@ footer .copyright p {
         grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 573px) {
+  /* Adjusting headers */
+  header .container {
+    grid-template-columns: 1fr; /* Stack elements in a single column */
+  }
+  header .container nav a {
+    margin: 5px 0; /* Reduce spacing */
+  }
+  header .container .logo {
+    font-size: 1.5em; /* Adjust logo font size */
+  }
+
+  /* Banner text */
+  .banner .textBx h2 {
+    font-size: 2em; /* Reduce main banner text size */
+  }
+  .banner .textBx h3 {
+    font-size: 1.2em; /* Reduce sub-heading font size */
+  }
+
+  /* Section headings */
+  section .heading h2 {
+    font-size: 1.75em; /* Reduce section heading font size */
+  }
+  section .heading p {
+    font-size: 0.9em; /* Reduce section subtext font size */
+  }
+
+  /* Flex layout adjustments */
+  .video-row {
+    flex-direction: column; /* Stack videos vertically */
+  }
+
+  /* Responsive grid containers */
+  .about .grid-container,
+  .services .content.grid-container,
+  .testinomial .grid-container,
+  .contact .grid-container {
+    grid-template-columns: 1fr; /* Stack columns */
+  }
+
+  /* Adjust services boxes */
+  .services .content.grid-container .servicesBx {
+    padding: 20px 10px; /* Adjust padding for smaller screens */
+  }
+
+  /* Contact form fields */
+  .contact .grid-container .formBx form input,
+  .contact .grid-container .formBx form textarea {
+    padding: 10px; /* Reduce padding */
+    font-size: 0.9em; /* Reduce input font size */
+  }
+
+  /* Button adjustments */
+  .btn {
+    font-size: 10px; /* Reduce button font size */
+    padding: 8px 16px; /* Reduce button padding */
+  }
+
+  /* Footer */
+  footer {
+    font-size: 12px; /* Reduce footer text size */
+  }
+}
+
