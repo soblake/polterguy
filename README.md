@@ -37,3 +37,30 @@ To get a local copy up and running, follow these steps:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/polterguy.git
+
+2. **Open the HTML File**
+   - Navigate to the project directory and open `index.html` in your preferred browser.
+
+## Usage
+
+After opening the `index.html` file in a browser, you can explore the different sections, including:
+
+- **Videos**: Links to embedded videos.
+- **About Section**: Background on the content and creator.
+- **Episode Guide**: Brief descriptions and links to previous episodes.
+
+The website is statically built, so no server is required to view it locally.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to submit your ideas:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
